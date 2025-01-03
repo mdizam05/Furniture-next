@@ -88,14 +88,14 @@ export default function Home() {
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/4 md:w-1/2 p-4 width 260px height 420px grid-cols-4 hover:bg-gray-200">
 
-        <a href="/product/1" className="block relative h-50 rounded overflow-hidden">
-          <img 
+        <Link href="/product/1" className="block relative h-50 rounded overflow-hidden">
+          <Image 
             alt="ecommerce" 
             src="/free-delivery 1.png"
             width={65} 
             height={65}
           />
-        </a>
+        </Link>
         <div className="mt-4">
 
           
@@ -189,14 +189,14 @@ export default function Home() {
         </button>
         </div>
         
-        <a href="/product/clock" className="block relative h-50 place-items-end rounded overflow-hidden">
-          <img 
+        <Link href="/product/clock" className="block relative h-50 place-items-end rounded overflow-hidden">
+          <Image 
             alt="ecommerce" 
             src="/image 1162.png"
             width={213} 
             height={207}
           />
-        </a>
+        </Link>
       </div>
         <div className="lg:w-1/4 md:w-1/2 p-4 width 420px height 270px grid grid-cols-2 hover:bg-gray-300">
         <div className="mt-5">
@@ -206,14 +206,14 @@ export default function Home() {
         </button>
         </div>
         
-        <a href="/product/clock" className="block relative h-50 place-items-end rounded overflow-hidden">
-          <img 
+        <Link href="/product/clock" className="block relative h-50 place-items-end rounded overflow-hidden">
+          <Image 
             alt="ecommerce" 
             src="/image 1161.png"
             width={312} 
             height={173}
           />
-        </a>
+        </Link>
         </div>
         <div className="lg:w-1/4 md:w-1/2 p-4 width 420px height 270px grid grid-cols-2 hover:bg-gray-300">
         <div className="mt-5">
@@ -223,14 +223,14 @@ export default function Home() {
         </button>
         </div>
         
-        <a href="/product/clock" className="block relative h-50 place-items-end rounded overflow-hidden">
-          <img 
+        <Link href="/product/clock" className="block relative h-50 place-items-end rounded overflow-hidden">
+          <Image 
             alt="ecommerce" 
             src="/image 19.png"
             width={67} 
             height={67}
           />
-        </a>
+        </Link>
         </div>
         <div className="lg:w-1/4 md:w-1/2 p-4 width 420px height 270px grid grid-cols-2 hover:bg-gray-300">
         <div className="mt-5">
@@ -240,14 +240,14 @@ export default function Home() {
         </button>
         </div>
         
-        <a href="/product/clock" className="block relative h-50 place-items-end rounded overflow-hidden">
-          <img 
+        <Link href="/product/clock" className="block relative h-50 place-items-end rounded overflow-hidden">
+          <Image 
             alt="ecommerce" 
             src="/image 30.png"
             width={64} 
             height={71}
           />
-        </a>
+        </Link>
         </div>
   
       </div>    
@@ -304,14 +304,14 @@ export default function Home() {
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/4 md:w-1/2 p-4 width 260px height 420px grid-cols-4 hover:bg-gray-200">
 
-        <a href="/product/1" className="block relative h-50 rounded overflow-hidden">
-          <img 
+        <Link href="/product/1" className="block relative h-50 rounded overflow-hidden">
+          <Image 
             alt="ecommerce" 
             src="/image 20.png"
             width={178} 
             height={178}
           />
-        </a>
+        </Link>
         <div className="mt-4">
 
           
