@@ -3,7 +3,7 @@ import React from 'react';
 const LatestProducts = () => {
   const products = [
     {
-      id: 1,
+      id: 11,
       name: "Comfort Handy Craft",
       image: "/image 1166.png" 
     },
@@ -18,17 +18,17 @@ const LatestProducts = () => {
       image: "/image 1168.png" 
     },
     {
-        id: 1,
+        id: 4,
         name: "Comfort Handy Craft",
         image: "/image 23.png" 
       },
       {
-        id: 2,
+        id: 5,
         name: "Comfort Handy Craft",
         image: "/image 44.png" 
       },
       {
-        id: 3,
+        id: 6,
         name: "Comfort Handy Craft",
         image: "/image 3.png" 
       }

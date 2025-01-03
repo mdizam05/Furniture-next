@@ -16,24 +16,24 @@ import Footer from "./components/footer";
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 justify-center h-screen flex-col items-center">
+    <div className="bg-gray-100 justify-center sm:h-screen md:h-screen h-screen relative items-center">
       <HeadingBar/>
       <Navbar/>
 <PromotionComponent/>
   <h1 className="flex justify-center items-center text-4xl font-bold text-[#0D0E43] Top 1015px Left 777px">Featured Products</h1>
-  <section className="text-[#0D0E43] width 99px height 14px top 301px left 92px gap 5px opacity 0px body-font">
+  <section className="text-[#0D0E43] width 99px height 14px top-[301px] left-[92px] gap 5px opacity 0px body-font">
   <div className="container px-5 py-24 mx-auto gap-20">
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/4 md:w-1/2 p-4 width 260px height 420px grid-cols-4 hover:bg-gray-200">
 
-        <a href="/product/1" className="block relative h-50 rounded overflow-hidden">
-          <img 
+        <Link href="/product/1" className="block relative h-50 rounded overflow-hidden">
+          <Image
             alt="ecommerce" 
             src="/image 1168.png"
             width={178} 
             height={178}
           />
-        </a>
+        </Link>
         <div className="mt-4">
 
           

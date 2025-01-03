@@ -1,6 +1,7 @@
+import Link from "next/link";
 import HeaderBar from "../components/headingbar";
 import Navbar from "../components/navbar";
-import Image from "next/image";
+
 
 export default function NotFound(){
     return(
@@ -87,16 +88,16 @@ export default function NotFound(){
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Pages</h2>
         <nav className="list-none mb-10">
           <li>
-            <a href="/blog" className="text-gray-600 hover:text-gray-900">Blog</a>
+            <Link href="/blog" className="text-gray-600 hover:text-gray-900">Blog</Link>
           </li>
           <li>
-            <a href="/shop" className="text-gray-600 hover:text-gray-900">Browse the Shop</a>
+            <Link href="/shop" className="text-gray-600 hover:text-gray-900">Browse the Shop</Link>
           </li>
           <li>
-            <a href="/product" className="text-gray-600 hover:text-gray-900"> Products</a>
+            <Link href="/product" className="text-gray-600 hover:text-gray-900"> Products</Link>
           </li>
           <li>
-            <a href="/contact" className="text-gray-600 hover:text-gray-900">Contact</a>
+            <Link href="/contact" className="text-gray-600 hover:text-gray-900">Contact</Link>
           </li>
           </nav>
               </div>

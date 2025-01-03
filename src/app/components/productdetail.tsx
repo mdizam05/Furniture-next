@@ -22,7 +22,7 @@ const ProductDisplay = () => {
           <img
             key={index}
             src={thumb}
-            alt={`Thumbnail ${index + 1}`}
+            alt={`Thumbnail ${index + 2}`}
             className="relative object-cover cursor-pointer hover:opacity-75 transition"
             onClick={() => setSelectedImage(index)}
             width={100}
